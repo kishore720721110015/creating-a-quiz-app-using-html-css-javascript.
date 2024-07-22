@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javasript.js"></script>
+</head>
+<body>
+    <!-- Quiz -->
+        <div class="sec">
+                <h2>In web design,What does CSS stand for?</h2>
+                <div class="quiz-answers">
+                    <div><button onclick="red1()" id="opt1"><span id="red01">A.</span>    Counter Strike Source</button></div>
+                </div>
+                <div class="quiz-answers">
+                    <div><button onclick="red2()" id="opt2"><span id="red02">B.</span>     Corrective Style Sheet</button></div>
+                </div>
+                <div class="quiz-answers">
+                    <div><button onclick="red3()" id="opt3"><span id="red03">C.</span>      Computer Style Sheet</button></div>
+                </div>
+                <div class="quiz-answers">
+                    <div><button onclick="green()" id="ans"><span id="green01">D.</span>      Cascading Style Sheet</button></div>
+                </div>
+        </div>
+    <script>
+        function red1(){
+            document.getElementById("opt1").style.backgroundColor="red";
+            document.getElementById("red01").style.backgroundColor="red";
+            document.getElementById("red01").style.borderColor="red";
+        }
+        function red2(){
+            document.getElementById("opt2").style.backgroundColor="red";
+            document.getElementById("red02").style.backgroundColor="red";
+            document.getElementById("red02").style.borderColor="red";
+        }
+        function red3(){
+            document.getElementById("opt3").style.backgroundColor="red";
+            document.getElementById("red03").style.backgroundColor="red";
+            document.getElementById("red03").style.borderColor="red";
+        }
+        function green(){
+            document.getElementById("ans").style.backgroundColor="green";
+            document.getElementById("green01").style.backgroundColor="green";
+            document.getElementById("green01").style.borderColor="green";
+        }
+       
+    </script>
+</body>
+</html>
